@@ -38,6 +38,6 @@ jobs:
         run: npm run build
   deploy:
     needs: build
-    uses: ./.github/workflows/resuable.yaml
+    uses: ./.github/workflows/reusable.yaml
     
     
