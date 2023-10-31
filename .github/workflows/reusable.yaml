@@ -1,7 +1,7 @@
 name: resuslabe template
 on: workflow_call
 jobs:
-  deploy:
+  childdeploy:
    runs-on: ubuntu-latest
    steps: 
     - name: deploy 
